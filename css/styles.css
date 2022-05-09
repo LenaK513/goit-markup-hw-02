@@ -1,0 +1,164 @@
+/* MAIN COLORS
+main background: #E5E5E5;
+secondary background: #2F303A;
+main text: #212121;
+nav color:#2196F3;
+second text color:#757575;
+white color: #FFFFFF;
+address color:rgba(255, 255, 255, 0.6);
+button-text-color:#F5F4FA;
+*/
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --nav-color: #2196f3;
+  --add-text-color: #ffffff;
+  --add-background-color: #2f303a;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --button-text-color: #f5f4fa;
+  --add-nav-color: #000000;
+}
+
+/* GENERAL SECTION */
+
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: var(--main-text-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav .link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+}
+
+.accent {
+  color: var(--add-nav-color);
+}
+
+.main-nav .link,
+.add-nav .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.main-nav .link {
+  color: var(--main-text-color);
+}
+
+.add-nav .link {
+  color: var(--second-text-color);
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--nav-color);
+}
+
+.add-nav .link:hover,
+.add-nav .link:focus {
+  color: var(--nav-color);
+}
+
+/***********************************************/
+/********* INDEX.HTML**************/
+/***********************************************/
+
+/*********** HERO SECTION **************/
+
+.hero {
+  font-family: "Roboto";
+  font-style: normal;
+  color: var(--add-text-color);
+  background-color: var(--add-background-color);
+  letter-spacing: 0.06em;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  color: var(--add-text-color);
+  background-color: var(--nav-color);
+}
+
+/*********** VALUES SECTION **************/
+
+.values {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.values-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.values-info {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-text-color);
+}
+
+/*********** PRODUCT SECTION **************/
+
+.product-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*********** TEAM SECTION **************/
+.team-member {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
